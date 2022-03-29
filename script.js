@@ -21,7 +21,7 @@ document.querySelector("#add").addEventListener("click", function(){
     }
 });
 
-var tasks = document.querySelectorAll(".item");
+var tasks = document.querySelectorAll("#remove");
 for( var i=0; i<tasks.length; i++){
     tasks[i].addEventListener("click", function (){
         setTimeout(()=>{
